@@ -1,0 +1,119 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
+
+
+ .button{
+    @apply transition ease-in-out delay-100 bg-gradient-to-l from-gray-800 to-red-600 
+    hover:-translate-y-1 hover:scale-110 hover:bg-gradient-to-l from-gray-800 to-red-600 duration-300  
+     mt-2 ml-2 pl-2 text-white shadow-lg shadow-red-500/100 border-none  !important
+    
+ } 
+
+ .buttons{
+   @apply transition ease-in-out delay-100 bg-gradient-to-b from-black to-black hover:-translate-y-1
+    hover:scale-110 hover:bg-gradient-to-b from-gray-800 to-red-600 duration-300   mt-2 ml-2  text-white
+    shadow-lg shadow-red-500/100 border-none rounded-3xl  !important
+ }
+
+
+ .novelsA{
+   @apply transition ease-in-out delay-100 bg-contain bg-no-repeat
+    bg-[url(https://c4.wallpaperflare.com/wallpaper/154/152/878/assassins-creed-revelations-desmond-miles-wings-bird-wallpaper-preview.jpg)] bg-cover
+     hover:-translate-y-1 hover:scale-110 
+    hover:bg-[url(https://i.pinimg.com/736x/57/28/ad/5728adfe5ccc1800cbe5a8ec8c63f546--game-quotes-real-quotes.jpg)]  hover:duration-300 hover:bg-cover
+    border-none  mt-2 ml-2 pl-[120px] pr-[120px] pt-[70px] pb-[70px] text-white shadow-xl shadow-gray-500/100 border-none  !important
+    
+ }
+
+
+ .novelsB{
+   @apply transition ease-in-out delay-100 bg-contain bg-no-repeat
+    bg-[url(https://wallpaper.dog/large/5536157.jpg)] bg-cover
+     hover:-translate-y-1 hover:scale-110 
+    hover:bg-[url(https://i.pinimg.com/236x/a1/a8/92/a1a8927237070708641ec47d62fd5052--videogames-assassins-creed.jpg)] hover:bg-cover duration-300 
+    border-none  mt-2 ml-2 pl-[120px] pr-[120px] pt-[70px] pb-[70px] text-white shadow-xl shadow-gray-500/100 border-none  !important
+    
+ }
+
+ .novelsC{
+   @apply transition ease-in-out delay-100 bg-contain bg-no-repeat
+    bg-[url(https://wallpaperaccess.com/full/2261156.jpg)] bg-cover
+     hover:-translate-y-1 hover:scale-110 
+    hover:bg-[url(https://i.pinimg.com/236x/b9/68/4c/b9684cde45c2b11eb3f1c90e3610be3a--assassins-creed-quotes-gamer-quotes.jpg)] hover:bg-cover duration-300 
+    border-none  mt-2 ml-2 pl-[120px] pr-[120px] pt-[70px] pb-[70px] text-white shadow-xl shadow-gray-500/100 border-none  !important
+    
+ }
+
+ .novelsD{
+   @apply transition ease-in-out delay-100 bg-contain bg-no-repeat
+    bg-[url(https://i.pinimg.com/736x/5e/61/40/5e61402117b5b88c84dff24bb5de9e5f.jpg)] bg-cover
+     hover:-translate-y-1 hover:scale-110 
+    hover:bg-[url(https://i.pinimg.com/236x/cf/7f/3f/cf7f3f8fed310bff231901b58d50e17d--assassins-creed-quotes-geek-quotes.jpg)] hover:bg-cover duration-300 
+    border-none  mt-2 ml-2 pl-[120px] pr-[120px] pt-[70px] pb-[70px] text-white shadow-xl shadow-gray-500/100 border-none  !important
+    
+ }
+
+ .novelsE{
+   @apply transition ease-in-out delay-100 bg-contain bg-no-repeat
+    bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbZOSzlEEe8xqfhqKU33RY1sTlUKDVjGv6eQ&usqp=CAU)] bg-cover
+     hover:-translate-y-1 hover:scale-110 
+    hover:bg-[url(http://images6.fanpop.com/image/photos/32100000/Assassin-s-Creed-Lesson-the-assassins-32182529-500-333.jpg)] hover:bg-cover duration-300 
+    border-none  mt-2 ml-2 pl-[120px] pr-[120px] pt-[70px] pb-[70px] text-white shadow-xl shadow-gray-500/100 border-none  !important
+    
+ }
+
+ .novelsF{
+   @apply transition ease-in-out delay-100 bg-contain bg-no-repeat
+    bg-[url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d9585883-0c30-448b-8cee-6eac6d5c695f/dd34j12-e8c7bd1f-c298-47f3-80ae-73aa112965e5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q5NTg1ODgzLTBjMzAtNDQ4Yi04Y2VlLTZlYWM2ZDVjNjk1ZlwvZGQzNGoxMi1lOGM3YmQxZi1jMjk4LTQ3ZjMtODBhZS03M2FhMTEyOTY1ZTUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YMpcQJKN_ZDcbWkaRxZUvL8zUPnTK_1k23IMKbHpGxc)] bg-cover
+     hover:-translate-y-1 hover:scale-110 
+    hover:bg-[url(https://i.pinimg.com/236x/e4/de/bc/e4debc73d1a5c63efb010ecb162b1162--creed-quotes-lessons-learned.jpg)] hover:bg-cover duration-300 
+    border-none  mt-2 ml-2 pl-[120px] pr-[120px] pt-[70px] pb-[70px] text-white shadow-xl shadow-gray-500/100 border-none  !important
+    
+ }
+
+ .exit{
+   @apply transition ease-in-out delay-100 bg-gradient-to-b from-black to-black hover:-translate-y-1
+    hover:scale-110 hover:bg-gradient-to-b from-gray-800 to-red-600 duration-300   mt-2 ml-2  text-white
+    shadow-lg shadow-cyan-900/100 border-none rounded-3xl absolute  top-0  flex  ml-[650px] mt-[300px]
+     !important
+ }
+
+ .exitAlpha{
+  @apply transition ease-in-out delay-100 bg-gradient-to-b from-black to-black hover:-translate-y-1
+   hover:scale-110 hover:bg-gradient-to-b from-gray-800 to-red-600 duration-300   mt-2 ml-2  text-white
+   shadow-lg shadow-cyan-900/100 border-none rounded-3xl absolute  top-0  flex 
+    ml-[1280px] mt-[580px] !important
+}
+
+.exitBeta{
+  @apply transition ease-in-out delay-100 bg-gradient-to-b from-black to-black hover:-translate-y-1
+   hover:scale-110 hover:bg-gradient-to-b from-gray-800 to-red-600 duration-300   mt-2 ml-2  text-white
+   shadow-lg shadow-cyan-900/100 border-none rounded-3xl absolute  top-[540px]  flex 
+     !important
+}
+
+ .keyA{
+   @apply transition ease-in-out delay-100 bg-gradient-to-b from-black to-black hover:-translate-y-1
+   hover:scale-110 hover:bg-gradient-to-b from-gray-800 to-red-600 duration-300   mt-2 ml-2 px-1 text-white
+   shadow-lg shadow-cyan-400/100 border-none rounded-3xl absolute  top-0  flex  
+    !important
+ }
+
+ .keyB{
+   @apply transition ease-in-out delay-100 bg-gradient-to-b from-black to-black hover:-translate-y-1
+   hover:scale-110 hover:bg-gradient-to-b from-gray-800 to-red-600 duration-300 mt-2 ml-2  px-[4px] text-white
+   shadow-lg shadow-cyan-400/100 border-none rounded-3xl absolute  top-0  flex  
+    !important
+ }
+ .final{
+  @apply transition ease-in-out delay-100 bg-gradient-to-b from-black to-black translate-y-1
+  scale-110 bg-gradient-to-b from-gray-800 to-red-600 duration-300   mt-2 ml-2  text-white
+  shadow-lg shadow-gray-900/100 border-none rounded-lg absolute  top-[0px]  flex ml-[720px]
+    pb-[18px] mx-4 mt-8 !important
+ }
